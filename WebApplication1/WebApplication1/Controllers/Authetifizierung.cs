@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -7,18 +8,19 @@ namespace WebApplication1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class Authetifizierung : ControllerBase
+    public class AuthentifizierungController : ControllerBase
     {
 
-        static List<Authetifizierung> LoginList;
-        
+        static List<CredentialsClass> LoginList;
+       
 
-        static Authetifizierung()
+        static AuthentifizierungController()
         {
-            LoginList = new List<string>();
-            LoginList.Add("michael@gmail.com", "alligator13");
-            LoginList.Add("dorian@yahoo.com", "hackeralptraum123");
-            LoginList.Add("stefan@icq.de", "SchlimmerFinger420");
+            LoginList = new List<CredentialsClass>();
+            LoginList.Add(new CredentialsClass() { Email = "michael@gmail.com", Password = "alligator13" });
+            LoginList.Add(new CredentialsClass() { Email = "dorian@yahoo.com", Password = "hackeralptraum123" });
+            LoginList.Add(new CredentialsClass() { Email = "stefan.icq.de", Password = "SchlimmerFinger420" });
+            
         }
 
         static Authetifizierung()

@@ -1,6 +1,6 @@
 ﻿namespace WebApplication1.Models
 {
-    public class Authetifizierung
+    public class CredentialsClass
 
     {
         public string Email { get; set; }

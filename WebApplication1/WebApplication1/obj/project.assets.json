@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\doria\\source\\repos\\WebServices1\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\doria\\Source\\Repos\\TheDorili\\WebServicesProject\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\doria\\source\\repos\\WebServices1\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\doria\\Source\\Repos\\TheDorili\\WebServicesProject\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\doria\\source\\repos\\WebServices1\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\doria\\Source\\Repos\\TheDorili\\WebServicesProject\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\doria\\AppData\\Roaming\\NuGet\\NuGet.Config",
