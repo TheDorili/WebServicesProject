@@ -1,6 +1,10 @@
 ﻿namespace WebApplication1.Models
 {
-    public class AuthetifizierungClass
+    public class Authetifizierung
+
     {
+        public string Email { get; set; }
+
+        public string Password { get; set; }
     }
 }
