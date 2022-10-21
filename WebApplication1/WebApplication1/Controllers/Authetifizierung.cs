@@ -23,14 +23,11 @@ namespace WebApplication1.Controllers
             
         }
 
-        static Authetifizierung()
-        {
-            LoginList = new List<Authetifizierung>();
-        }
+       
 
         // GET: api/<Authetifizierung>
         [HttpGet]
-        public List<Authetifizierung> Get()
+        public List<CredentialsClass> Get()
         {
             return LoginList;
         }
@@ -44,21 +41,51 @@ namespace WebApplication1.Controllers
 
         // POST api/<Authetifizierung>
         [HttpPost]
-        public IActionResult Post([FromBody] Authetifizierung credentials)
+        public IActionResult Post([FromBody] CredentialsClass LoginData)
         {
-            if (credentials == LoginList)
+            var login = LoginList.Find(a => a.Email == LoginData.Email);
+
+            if (login!= null)
+            {
+                if (LoginData.Password==login.Password)
+                {
+                    return Ok("logged in");
+                }
+                else
+                {
+                    return Unauthorized();
+                }
+
+            }
+            else
+            {
+                return Unauthorized();
+            }
         }
+
 
         // PUT api/<Authetifizierung>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public CredentialsClass Put(string id, [FromBody] CredentialsClass LoginData)
         {
+            var newLoginEmail = LoginList.Where(l => l.Email == id).FirstOrDefault();
+            newLoginEmail.Email = LoginData.Email;
+            return newLoginEmail;
+
+            var newLoginPass = LoginList.Where(l => l.Password == id).FirstOrDefault();
+            newLoginPass.Password = LoginData.Password;
+            return newLoginPass;
         }
 
         // DELETE api/<Authetifizierung>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void Delete(string id)
         {
+            var DataEmail = LoginList.Where((l) => l.Email == id).FirstOrDefault();
+            LoginList.Remove(DataEmail);
+
+            var DataPass = LoginList.Where((l) => l.Password == id).FirstOrDefault();
+            LoginList.Remove(DataPass);
         }
     }
 }
