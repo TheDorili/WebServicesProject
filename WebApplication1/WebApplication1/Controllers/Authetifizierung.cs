@@ -27,19 +27,18 @@ namespace WebApplication1.Controllers
 
         // GET: api/<Authetifizierung>
         [HttpGet]
-        public List<CredentialsClass> Get()
+        public List<CredentialsClass> GetEmail()
         {
             return LoginList;
         }
 
-        // GET api/<Authetifizierung>/5
-       // [HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-          //  return "value";
-        //}
+        [HttpGet("{id}")]
 
-        // POST api/<Authetifizierung>
+       // public string Get(int id)
+        //{
+       //     return LoginList[id].Email;
+       // }
+        //Login wird überprüft ob es überhaupt da ist und ob das Passwort stimmt
         [HttpPost]
         public IActionResult Post([FromBody] CredentialsClass LoginData)
         {
@@ -63,29 +62,27 @@ namespace WebApplication1.Controllers
             }
         }
 
-
+        //neuen User Anlegen
         // PUT api/<Authetifizierung>/5
-        [HttpPut("{id}")]
-        public CredentialsClass Put(string id, [FromBody] CredentialsClass LoginData)
+        [HttpPut("{id]")]
+        public CredentialsClass Put(int id, [FromBody] CredentialsClass value, CredentialsClass? newData)
         {
-            var newLoginEmail = LoginList.Where(l => l.Email == id).FirstOrDefault();
-            newLoginEmail.Email = LoginData.Email;
-            return newLoginEmail;
-
-            var newLoginPass = LoginList.Where(l => l.Password == id).FirstOrDefault();
-            newLoginPass.Password = LoginData.Password;
-            return newLoginPass;
+            var newCreData = LoginList.Where(i => i.Userid == id).FirstOrDefault();
+            newCreData.Email = value.Email;
+            newCreData.Password = value.Password;
+            return newCreData;
         }
+     
 
+        
+
+        //bestehenden User löschen
         // DELETE api/<Authetifizierung>/5
         [HttpDelete("{id}")]
         public void Delete(string id)
         {
-            var DataEmail = LoginList.Where((l) => l.Email == id).FirstOrDefault();
-            LoginList.Remove(DataEmail);
-
-            var DataPass = LoginList.Where((l) => l.Password == id).FirstOrDefault();
-            LoginList.Remove(DataPass);
+            var data = LoginList.Where(l => l.Email == id).FirstOrDefault();
+            LoginList.Remove(data);
         }
     }
 }
