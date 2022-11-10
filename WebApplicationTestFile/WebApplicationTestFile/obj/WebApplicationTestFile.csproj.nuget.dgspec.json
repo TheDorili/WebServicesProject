@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {}
+    "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {
+    "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+        "projectUniqueName": "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
         "projectName": "WebApplicationTestFile",
-        "projectPath": "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
-        "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
+        "projectPath": "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\doria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
