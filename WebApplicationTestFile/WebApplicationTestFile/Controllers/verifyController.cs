@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplicationTestFile.Models;
+using WebApplicationTestFile.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -22,6 +23,7 @@ namespace WebApplicationTestFile.Controllers
         // GET: api/<verifyController>
         [HttpGet]
         public List<verify> Get()
+
         {
             return LoginList;
         }
@@ -30,10 +32,18 @@ namespace WebApplicationTestFile.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
+
+            UserIdValidatorService _test = new UserIdValidatorService();
+
+            var erg = _test.ValidUser(id, LoginList);
+
+
+
+
             verify gefunden = new verify();
             foreach (verify forEachVariable in LoginList)
             {
-                if (forEachVariable.Userid==id)
+                if (forEachVariable.Userid == id)
                 {
                     gefunden = forEachVariable;
                 }
@@ -65,7 +75,7 @@ namespace WebApplicationTestFile.Controllers
                 {
                     return Unauthorized();
                 }
-                
+
             }
             else
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7CI1M4kolJvGWuFCbHUwZwj4mHFB6Nvq5+vq8coxR1LjOWVfoP/LIHg8RbwG2i/fzfFCRAGKbGZ/zJYG+QXa3Q==",
+  "dgSpecHash": "aSOj6Eu0rywKYHvFzva7hhUWX27VkbpWrMgTiCVJh6SlwCpS8cGzM7kGFLWzwQd/GS78HHLgHb+143ZfjyWY0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\doria\\source\\repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+  "projectFilePath": "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\doria\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\doria\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

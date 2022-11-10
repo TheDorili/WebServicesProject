@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\doria\\source\\repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {}
+    "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\doria\\source\\repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {
+    "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\doria\\source\\repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+        "projectUniqueName": "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
         "projectName": "WebApplicationTestFile",
-        "projectPath": "C:\\Users\\doria\\source\\repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+        "projectPath": "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
         "packagesPath": "C:\\Users\\doria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\doria\\source\\repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
+        "outputPath": "C:\\Users\\doria\\source\\repos\\WebServicesProjectV2\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\doria\\AppData\\Roaming\\NuGet\\NuGet.Config",

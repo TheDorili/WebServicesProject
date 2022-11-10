@@ -5,32 +5,27 @@ namespace WebApplicationTestFile.Services
 {
     public interface IUserIdValidatorService
     {
-        bool ValidUser(verify request);
+        bool ValidUser(int id, List<verify> validUsers);
     }
     /// <summary>
     /// //
     /// </summary>
     public class UserIdValidatorService : IUserIdValidatorService
     {
-        public bool ValidUser(verify request)
+        public bool ValidUser(int id, List<verify> validUsers)
         {
-            bool validUser = false;
-        }
-        verify gefunden = new verify();
-            foreach (verify forEachVariable in LoginList)
+            verify gefunden = new verify();
+            foreach (verify forEachVariable in validUsers)
             {
-                if (forEachVariable.Userid==id)
+                if (forEachVariable.Userid == id)
                 {
                     gefunden = forEachVariable;
                 }
-}
+            }
 
-if (gefunden.Userid == 0)
-{
-    return NotFound();
-}
-else
-{
-    return Ok(gefunden);
-}
+            return false;
+
         }
+    }
+
+}
