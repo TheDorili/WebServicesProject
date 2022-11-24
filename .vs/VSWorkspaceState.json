@@ -3,8 +3,9 @@
     "",
     "\\WebApplicationTestFile",
     "\\WebApplicationTestFile\\WebApplicationTestFile",
-    "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers"
+    "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers",
+    "\\WebApplicationTestFile\\WebApplicationTestFile\\Services"
   ],
-  "SelectedNode": "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers\\verifyController.cs",
+  "SelectedNode": "\\WebApplicationTestFile\\WebApplicationTestFile\\Services\\EmailValidatorService.cs",
   "PreviewInSolutionExplorer": false
 }
