@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebApplicationTestFile",
+    "\\WebApplicationTestFile\\WebApplicationTestFile",
+    "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers"
   ],
-  "SelectedNode": "\\C:\\Users\\doria\\source\\repos\\WebServicesProjectV1",
+  "SelectedNode": "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers\\verifyController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -57,3 +57,35 @@ C:\Users\stefa\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\Semester 
 C:\Users\stefa\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\Semester 3\Web Service\Projekt\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.pdb
 C:\Users\stefa\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\Semester 3\Web Service\Projekt\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.genruntimeconfig.cache
 C:\Users\stefa\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\Semester 3\Web Service\Projekt\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\ref\WebApplicationTestFile.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.csproj.AssemblyReference.cache
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.AssemblyInfoInputs.cache
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.AssemblyInfo.cs
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.csproj.CoreCompileInputs.cache
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\refint\WebApplicationTestFile.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.pdb
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\appsettings.json
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\WebApplicationTestFile.exe
+C:\Users\Dorian\Source\Repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\WebApplicationTestFile.deps.json
+C:\Users\Dorian\Source\Repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\WebApplicationTestFile.runtimeconfig.json
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\WebApplicationTestFile.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\WebApplicationTestFile.pdb
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\staticwebassets\msbuild.WebApplicationTestFile.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplicationTestFile.props
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplicationTestFile.props
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplicationTestFile.props
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Dorian\source\repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\scopedcss\bundle\WebApplicationTestFile.styles.css
+C:\Users\Dorian\Source\Repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.csproj.CopyComplete
+C:\Users\Dorian\Source\Repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\WebApplicationTestFile.genruntimeconfig.cache
+C:\Users\Dorian\Source\Repos\WebServicesProject1\WebApplicationTestFile\WebApplicationTestFile\obj\Debug\net6.0\ref\WebApplicationTestFile.dll

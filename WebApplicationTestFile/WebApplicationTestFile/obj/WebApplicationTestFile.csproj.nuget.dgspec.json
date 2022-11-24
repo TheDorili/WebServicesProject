@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {}
+    "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {
+    "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+        "projectUniqueName": "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
         "projectName": "WebApplicationTestFile",
-        "projectPath": "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
-        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
+        "projectPath": "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+        "packagesPath": "C:\\Users\\Dorian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dorian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
