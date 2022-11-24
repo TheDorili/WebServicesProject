@@ -224,24 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Michael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+      "projectUniqueName": "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
       "projectName": "WebApplicationTestFile",
-      "projectPath": "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
-      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stefa\\OneDrive - CAMPUS 02 Fachhochschule der Wirtschaft GmbH\\Semester 3\\Web Service\\Projekt\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
+      "projectPath": "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\WebApplicationTestFile.csproj",
+      "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Michael\\Source\\Repos\\WebServicesProject\\WebApplicationTestFile\\WebApplicationTestFile\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -249,7 +244,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
