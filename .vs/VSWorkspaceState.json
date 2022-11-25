@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DropboxApi",
     "\\WebApplicationTestFile",
     "\\WebApplicationTestFile\\WebApplicationTestFile",
     "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers",
     "\\WebApplicationTestFile\\WebApplicationTestFile\\Services"
   ],
-  "SelectedNode": "\\WebApplicationTestFile\\WebApplicationTestFile\\Services\\EmailValidatorService.cs",
+  "SelectedNode": "\\DropboxApi\\DropboxApi.sln",
   "PreviewInSolutionExplorer": false
 }

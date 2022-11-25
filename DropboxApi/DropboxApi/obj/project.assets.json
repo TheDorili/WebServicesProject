@@ -10067,11 +10067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dorian\\source\\repos\\DropboxApi\\DropboxApi\\DropboxApi.csproj",
+      "projectUniqueName": "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\DropboxApi\\DropboxApi\\DropboxApi.csproj",
       "projectName": "DropboxApi",
-      "projectPath": "C:\\Users\\Dorian\\source\\repos\\DropboxApi\\DropboxApi\\DropboxApi.csproj",
+      "projectPath": "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\DropboxApi\\DropboxApi\\DropboxApi.csproj",
       "packagesPath": "C:\\Users\\Dorian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dorian\\source\\repos\\DropboxApi\\DropboxApi\\obj\\",
+      "outputPath": "C:\\Users\\Dorian\\source\\repos\\WebServicesProject1\\DropboxApi\\DropboxApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dorian\\AppData\\Roaming\\NuGet\\NuGet.Config",
