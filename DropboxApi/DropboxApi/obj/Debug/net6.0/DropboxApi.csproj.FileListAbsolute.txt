@@ -536,3 +536,10 @@ C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\obj\Debug
 C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\obj\Debug\net6.0\DropboxApi.pdb
 C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\obj\Debug\net6.0\DropboxApi.genruntimeconfig.cache
 C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\obj\Debug\net6.0\ref\DropboxApi.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Dorian\source\repos\WebServicesProject1\DropboxApi\DropboxApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

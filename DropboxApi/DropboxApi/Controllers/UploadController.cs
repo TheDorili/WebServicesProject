@@ -1,5 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using DropboxApi.Models;
+﻿using DropboxApi.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -7,75 +14,93 @@ namespace DropboxApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DataController : ControllerBase
+    public class UploadController : ControllerBase
     {
-        static List<Upload> DataList;
+        private readonly UploadContext _context;
 
-        static DataController()
+        public UploadController(UploadContext context)
         {
-            DataList = new List<Upload>();
+            _context = context;
         }
-        // GET: api/<DataController>
+        // GET: api/<UploadController>
         [HttpGet]
-        public List<Upload> Get()
+        public async Task<ActionResult<IEnumerable<UploadItem>>> GetUploadItems()
         {
-            return DataList;
+            return await _context.UploadItems.ToListAsync();
         }
-
-        // GET api/<DataController>/5
+        // GET api/<UploadController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<ActionResult<UploadItem>> GetUploadItem(long id)
         {
-            Upload gefunden = new Upload();
-            foreach (Upload forEachVariable in DataList)
-            {
-                if (forEachVariable.storageId == id)
-                {
-                    gefunden = forEachVariable;
-                }
-            }
-            if (gefunden.storageId == 0)
+            var uploadItem = await _context.UploadItems.FindAsync(id);
+
+            if (uploadItem == null)
             {
                 return NotFound();
             }
-            else
-            {
-                return Ok(gefunden);
-            }
+
+            return uploadItem;
         }
 
-        // POST api/<DataController>
+        // POST api/<UploadController>
         [HttpPost]
-        public IActionResult Post([FromBody] Upload data)
+        public async Task<IActionResult> PutUploadItem(long id, UploadItem uploadItem)
         {
-            if (data.name == string.Empty)
+            if (id != uploadItem.Id)
             {
                 return BadRequest();
             }
 
-            data.storageId = DataList.Count + 1;
-            DataList.Add(data);
+            _context.Entry(uploadItem).State = EntityState.Modified;
 
-            return Ok(data);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
 
+                if (!UploadItemExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
         }
 
-        // PUT api/<DataController>/5
+        // PUT api/<UploadController>/5
         [HttpPut("{id}")]
-        public Upload Put(int id, [FromBody] Upload value)
+        public async Task<ActionResult<UploadItem>> PostUploadItem(UploadItem uploadItem)
         {
-            var data = DataList.Where(l => l.storageId == id).FirstOrDefault();
-            data.name = value.name;
-            return data;
+            _context.UploadItems.Add(uploadItem);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetUploadItem", new { id = uploadItem.Id }, uploadItem);
+        }
+        // DELETE api/<UploadController>/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUploadItem(long id)
+        {
+            var uploadItem = await _context.UploadItems.FindAsync(id);
+            if (uploadItem == null)
+            {
+                return NotFound();
+            }
+
+            _context.UploadItems.Remove(uploadItem);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
-        // DELETE api/<DataController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        private bool UploadItemExists(long id)
         {
-            var data = DataList.Where(l => l.storageId == id).FirstOrDefault();
-            DataList.Remove(data);
-
+            return _context.UploadItems.Any(e => e.Id == id);
         }
     }
 }
