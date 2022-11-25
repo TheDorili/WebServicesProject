@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\DropboxApi",
+    "\\DropboxApi\\DropboxApi",
     "\\WebApplicationTestFile",
     "\\WebApplicationTestFile\\WebApplicationTestFile",
     "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers",
