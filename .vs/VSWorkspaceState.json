@@ -3,11 +3,10 @@
     "",
     "\\DropboxApi",
     "\\DropboxApi\\DropboxApi",
-    "\\WebApplicationTestFile",
-    "\\WebApplicationTestFile\\WebApplicationTestFile",
-    "\\WebApplicationTestFile\\WebApplicationTestFile\\Controllers",
-    "\\WebApplicationTestFile\\WebApplicationTestFile\\Services"
+    "\\DropboxApi\\DropboxApi\\Controllers",
+    "\\ignore\\WebApplicationTestFile",
+    "\\ignore\\WebApplicationTestFile\\WebApplicationTestFile"
   ],
-  "SelectedNode": "\\DropboxApi\\DropboxApi.sln",
+  "SelectedNode": "\\DropboxApi\\DropboxApi\\Controllers\\UploadController.cs",
   "PreviewInSolutionExplorer": false
 }

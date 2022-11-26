@@ -1,14 +1,12 @@
-﻿using DropboxApi.Models;
-using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using DropboxApi.Models;
 using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace DropboxApi.Controllers
 {
@@ -22,13 +20,15 @@ namespace DropboxApi.Controllers
         {
             _context = context;
         }
-        // GET: api/<UploadController>
+
+        // GET: api/FileSearch
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UploadItem>>> GetUploadItems()
         {
             return await _context.UploadItems.ToListAsync();
         }
-        // GET api/<UploadController>/5
+
+        // GET: api/UploadItems/5
         [HttpGet("{id}")]
         public async Task<ActionResult<UploadItem>> GetUploadItem(long id)
         {
@@ -42,8 +42,9 @@ namespace DropboxApi.Controllers
             return uploadItem;
         }
 
-        // POST api/<UploadController>
-        [HttpPost]
+        // PUT: api/UploadItems/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut("{id}")]
         public async Task<IActionResult> PutUploadItem(long id, UploadItem uploadItem)
         {
             if (id != uploadItem.Id)
@@ -73,8 +74,9 @@ namespace DropboxApi.Controllers
             return NoContent();
         }
 
-        // PUT api/<UploadController>/5
-        [HttpPut("{id}")]
+        // POST: api/UploadItems
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost]
         public async Task<ActionResult<UploadItem>> PostUploadItem(UploadItem uploadItem)
         {
             _context.UploadItems.Add(uploadItem);
@@ -82,7 +84,8 @@ namespace DropboxApi.Controllers
 
             return CreatedAtAction("GetUploadItem", new { id = uploadItem.Id }, uploadItem);
         }
-        // DELETE api/<UploadController>/5
+
+        // DELETE: api/UploadItems/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUploadItem(long id)
         {
