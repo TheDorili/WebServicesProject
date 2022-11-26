@@ -5,7 +5,8 @@
     "\\DropboxApi\\DropboxApi",
     "\\DropboxApi\\DropboxApi\\Controllers",
     "\\ignore\\WebApplicationTestFile",
-    "\\ignore\\WebApplicationTestFile\\WebApplicationTestFile"
+    "\\ignore\\WebApplicationTestFile\\WebApplicationTestFile",
+    "\\Python"
   ],
   "SelectedNode": "\\DropboxApi\\DropboxApi\\Controllers\\UploadController.cs",
   "PreviewInSolutionExplorer": false

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using DropboxApi.Services;
 using DropboxApi.Models;
+using System.Configuration;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace DropboxApi.Controllers
@@ -20,20 +21,22 @@ namespace DropboxApi.Controllers
                 LoginList.Add(new verify() { Userid = 3, Email = "stefan.icq.de", Password = "SchlimmerFinger420" });
             }
     }
-
+        IConfiguration configuration;
+        public verifyController(IConfiguration _configuration)
+        {
+            configuration = _configuration;
+        }
 
         // GET api/<verifyController>/5
         // Search a User with DI UseridValidation
         [HttpGet("Search User")]
         public IActionResult Get(int id)
         {
-
+            var loginListFromConfig = configuration.GetSection("LoginList").Get<List<verify>>();
+           
             UserIdValidatorService _test = new UserIdValidatorService();
 
-            var erg = _test.ValidUser(id, LoginList);
-
-
-
+            var erg = _test.ValidUser(id, loginListFromConfig);
 
             verify gefunden = new verify();
             foreach (verify forEachVariable in LoginList)
