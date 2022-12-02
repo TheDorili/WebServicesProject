@@ -4,10 +4,9 @@
     "\\DropboxApi",
     "\\DropboxApi\\DropboxApi",
     "\\DropboxApi\\DropboxApi\\Controllers",
-    "\\ignore\\WebApplicationTestFile",
-    "\\ignore\\WebApplicationTestFile\\WebApplicationTestFile",
+    "\\DropboxApi\\DropboxApi\\Middleware",
     "\\Python"
   ],
-  "SelectedNode": "\\DropboxApi\\DropboxApi\\Controllers\\UploadController.cs",
+  "SelectedNode": "\\DropboxApi\\DropboxApi\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

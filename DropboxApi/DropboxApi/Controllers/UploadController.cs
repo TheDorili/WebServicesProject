@@ -29,7 +29,7 @@ namespace DropboxApi.Controllers
         }
 
         // GET: api/UploadItems/5
-        [HttpGet("{id}")]
+        [HttpGet("LookUpForData")]
         public async Task<ActionResult<UploadItem>> GetUploadItem(long id)
         {
             var uploadItem = await _context.UploadItems.FindAsync(id);
@@ -44,7 +44,7 @@ namespace DropboxApi.Controllers
 
         // PUT: api/UploadItems/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("CreateData")]
         public async Task<IActionResult> PutUploadItem(long id, UploadItem uploadItem)
         {
             if (id != uploadItem.Id)
